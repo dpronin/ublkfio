@@ -1,0 +1,9 @@
+[global]
+direct=1
+rw=randread
+bs=1m
+iodepth=32
+ioengine=aio
+filename_format=/dev/ublk-$jobnum
+
+[job1]

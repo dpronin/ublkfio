@@ -1,0 +1,12 @@
+[global]
+direct=1
+rw=write
+bs=1m
+iodepth=32
+ioengine=aio
+filename_format=/dev/ublk-$jobnum
+verify=xxhash
+verify_state_save=0
+verify_state_load=0
+
+[job1]
