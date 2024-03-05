@@ -1,0 +1,9 @@
+[global]
+direct=1
+rw=randwrite
+bs=512
+iodepth=32
+ioengine=aio
+filename_format=/dev/ublk-$jobnum
+
+[randwrite_bs512_iodepth32]
