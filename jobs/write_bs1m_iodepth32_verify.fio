@@ -4,10 +4,10 @@ iodepth=32
 ioengine=aio
 filename_format=/dev/ublk-$jobnum
 
-[wipe_drive_out]
+[randomize_data_in_drive]
 bs=1m
 rw=write
-zero_buffers
+refill_buffers
 
 [write_bs1m_iodepth32_verify]
 wait_for_previous
