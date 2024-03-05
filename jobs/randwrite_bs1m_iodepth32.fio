@@ -1,9 +1,9 @@
 [global]
 direct=1
-rw=randread
+rw=randwrite
 bs=1m
 iodepth=32
 ioengine=aio
 filename_format=/dev/ublk-$jobnum
 
-[randread_bs1m_iodepth32]
+[randwrite_bs1m_iodepth32]

@@ -6,4 +6,4 @@ iodepth=32
 ioengine=aio
 filename_format=/dev/ublk-$jobnum
 
-[job1]
+[read_bs4k_iodepth32]
